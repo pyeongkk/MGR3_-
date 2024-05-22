@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MErry Go riDe</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main_MRG1.css">
+    <link rel="stylesheet" href="css/main_cell1.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js" ></script>
+    <script src="js/script.js" defer ></script>
+    <script src="js/script_jquery.js" ></script>
+</head>
+
+
+<body>
+    <header> 
+        <!-- 로고는 왼쪽 상단에 고정 -->
+        <!-- 로그인/회원가입/(외국어//하면 추가) 버튼은 따로 오른쪽 상단에 고정 -->
+        <div class="h_fixed">
+            <div class="logo">
+                <a href="#" class="logo_img">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="h_right">
+                <ul>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#">JOIN</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="nav"> 
+            <!-- 들어가야하는 것: About Us/게시판(리뷰,공지사항과 이벤트,Q&A)/티켓구매/오시는길/ -->
+            <!-- 지붕이 내려오게 코딩하기,,,,,,,,,,일단 css로 해놨는데 js로 수정하기 -->
+            <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">게시판</a>
+                    <ul class="nav_mini">
+                        <li><a href="#">RIVIEW</a></li>
+                        <li><a href="#">공지사항 & 이벤트</a></li>
+                        <li><a href="#">Q&A</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TICKET</a></li>
+                <li><a href="#">오시는 길</a></li>
+                <li><a href="#">오시는 길</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="box"> 
+        <div id="canvas">
+            <div id="merry">
+                <!-- content 공간  -->
+                <div class="face f1">
+                    <div class="cell">
+                        <!-- intro //사진으로 대체-->
+                    </div>
+                </div>  
+
+                <div class="face f2">
+                    <div class="cell">
+                        <!-- 어트렉션 -->
+                        <div class="attraction">
+                            Let's ride attractions-!
+                        </div>
+                        <div class="at at1">
+                            <a href="#">
+                                <div class="at1_photo"></div>
+                                <div class="at1_text">
+                                    <p class="at_title">회전목마</p>
+                                    <p class="at_text">아름다운 백마를 타고 떠나는 로맥틴한 여행!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="at at2">
+                            <a href="#">
+                                <div class="at2_photo"></div>
+                                <div class="at2_text">
+                                    <p class="at_title">자이로스윙</p>
+                                    <p class="at_text">거대한 회전기구가 시계추처럼 움직여요!</p>
+                                </div>   
+                            </a>
+                        </div>
+                        <div class="at at3">
+                            <a href="#">
+                                <div class="at3_photo"></div>
+                                <div class="at3_text">
+                                    <p class="at_title">회전바구니</p>
+                                    <p class="at_text">빙글~빙글~ 돌면서 즐기는 짜릿한 즐거움!</p>
+                                </div>
+                            </a>  
+                        </div>
+                        <div class="at at4">
+                            <a href="#">
+                                <div class="at4_photo"></div>
+                                <div class="at4_text">
+                                    <p class="at_title">환타지드림</p>
+                                    <p class="at_text">지하탐험 환상열차를 타고 환상의 나라로!</p>
+                                </div> 
+                            </a>   
+                        </div>
+                        <div class="at at5">
+                            <a href="#">
+                                <div class="at5_photo"></div>
+                                <div class="at5_text">
+                                    <p class="at_title">아트란티스</p>
+                                    <p class="at_text">보트를 타고 미스터리 신적 속으로!</p>
+                                </div> 
+                            </a>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="face f3">
+                    <div class="cell">
+                        <!-- 티켓 구매 -->
+                        <div class="ticket">
+                            BUY the MERRY-!
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <div class="tic_img1"></div>
+                                <div class="tic_text">
+                                    자유이용권<span>(일반권)</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tbox">
+                            <a href="#">
+                                <div class="tic_img2"></div>
+                                <div class="tic_text">
+                                    자유이용권<span>(단체권)</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="face f4">
+                    <div class="cell">
+                        <!-- 리뷰 -->
+                        <div class="riview">
+                            BEST RIVIEW
+                        </div>
+                        <div class="rbox">
+                            <a href="#">
+                                <div class="riv r1">
+                                    <div class="riv_title">
+                                        너무 재밌었어요!
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">  
+                                <div class="riv r2">
+                                    <div class="riv_title">
+                                        즐거운 시간~
+                                    </div>
+                                </div>
+                            </a> 
+                            <a href="#">
+                                <div class="riv r3">
+                                    <div class="riv_title">
+                                        풍경이 예뻤어요
+                                    </div>
+                                </div>
+                            </a> 
+                            <a href="#"> 
+                                <div class="riv r4">
+                                    <div class="riv_title">
+                                        너무 재밌음!
+                                    </div>
+                                </div>
+                            </a> 
+                            <a href="#">
+                                <div class="riv r5">
+                                    <div class="riv_title">
+                                        최고의 놀이기구!
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="riv r6">
+                                    <div class="riv_title">
+                                        재밌었어요
+                                    </div>
+                                </div>
+                            </a>    
+                            <a href="#">
+                                <div class="riv r7">
+                                    <div class="riv_title">
+                                        추천합니다.
+                                    </div>
+                                </div>
+                            </a>    
+                            <a href="#">
+                                <div class="riv r8">
+                                    <div class="riv_title">
+                                        재밌었어요
+                                    </div>
+                                </div>   
+                            </a>
+                            <a href="#">
+                                <div class="riv r9">
+                                    <div class="riv_title">
+                                        최고!
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">   
+                                <div class="riv r0">
+                                    <div class="riv_title">
+                                        짱짱 
+                                    </div>
+                                </div>
+                            </a>     
+                        </div>
+                    </div>
+                </div>
+
+                <div class="face f5">
+                    <div class="cell">
+                        <!-- 공지사항 & 이벤트 -->
+                        <div class="notic">
+                            <div class="notic_title">
+                                MERRY GO RIDE NOTIC
+                            </div>
+                            <div class="plus">
+                                <a href="#">더보기</a>
+                            </div>
+                        </div>
+                        <div class="notics">
+                            <ul>
+                                <li>
+                                    <div class="notic_title">어트랙션 운휴 안내 </div> 
+                                    <div class="notic_date">2024.05.20</div>
+                                </li>
+                                <li>
+                                    <div class="notic_title">MERRY 이벤트 당첨자 </div> 
+                                    <div class="notic_date">2024.05.10</div>
+                                </li>
+                                <li>
+                                    <div class="notic_title">어린이날 깜짝 이벤트 안내 </div> 
+                                    <div class="notic_date">2024.05.05</div>
+                                </li>
+                                <li>
+                                    <div class="notic_title">가정의 달 이벤트 안내 </div> 
+                                    <div class="notic_date">2024.05.01</div>
+                                </li>
+                                <li>
+                                    <div class="notic_title">new 퍼레이드 소개 </div> 
+                                    <div class="notic_date">2024.04.29</div>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer>
+        <div class="team">
+            2024 team project <br>
+            나래 혜원 영인 평강
+        </div>
+    </footer>  -->
+</body>
+</html>

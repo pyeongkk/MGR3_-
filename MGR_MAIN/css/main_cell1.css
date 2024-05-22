@@ -1,0 +1,286 @@
+/* intro */
+.f1 .cell{
+    background: url("/images/main_intro.png");
+    background-size: cover;
+}
+
+/* 어트렉션 */
+.f2 .cell .attraction,
+.f3 .cell .ticket,
+.f4 .cell .riview{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px auto;
+    font-style: italic;
+}
+
+.f2 .cell .at{
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 225px;
+    height: 200px;
+    float: left;
+    margin: 10px 10px;
+    overflow: hidden;
+}
+.f2 .cell .at:hover{
+    border: 2px solid rgb(100, 155, 155);
+}
+
+.f2 .cell .at1{
+    height: 250px;
+    width: 960px;
+}
+
+.f2 .cell .at1_photo{
+    height: 100%;
+    width: 100%;
+    background: url("/images/at5_photo.jpg") no-repeat 90% 75%;
+    background-position: cover;
+}
+.f2 .cell .at1_text{
+    position: relative;
+    top:-50px;
+    background-color: white;
+    padding: 10px 0;
+    padding-left: 10px;
+}
+
+
+.f2 .cell .at_title{
+    color: #111;
+    font-size: 15px;
+}
+.f2 .cell .at_text{
+    font-size: 11px;
+    color: #666;
+}
+
+.f2 .cell .at1_text .at_title{
+    color: #111;
+    font-size: 20px;
+}
+.f2 .cell .at1_text .at_text{
+    color: #666;
+}
+
+.f2 .cell .at2_photo{
+    height: 100%;
+    width: 100%;
+    background: url("/images/at2_photo.jpg") no-repeat 35% 50%;
+    background-size: 250%;
+}
+.f2 .cell .at2_text{
+    position: relative;
+    top:-40px;
+    background-color: white;
+    padding: 6px 0;
+    padding-left: 10px;
+}
+
+.f2 .cell .at3_photo{
+    height: 100%;
+    width: 100%;
+    background: url("/images/at3_photo.jpg") no-repeat 35%;
+    background-size: 250%;
+}
+.f2 .cell .at3_text{
+    position: relative;
+    top:-40px;
+    background-color: white;
+    padding: 6px 0;
+    padding-left: 10px;
+}
+
+.f2 .cell .at4_photo{
+    height: 100%;
+    width: 100%;
+    background: url("/images/at4_photo.jpg") no-repeat 35%;
+    background-size: 250%;
+}
+.f2 .cell .at4_text{
+    position: relative;
+    top:-40px;
+    background-color: white;
+    padding: 6px 0;
+    padding-left: 10px;
+}
+.f2 .cell .at5_photo{
+    height: 100%;
+    width: 100%;
+    background: url("/images/at1_photo.jpg") no-repeat 35%;
+    background-size: 250%;
+}
+.f2 .cell .at5_text{
+    position: relative;
+    top:-40px;
+    background-color: white;
+    padding: 6px 0;
+    padding-left: 10px;
+}
+
+/* 티켓 구매 */
+
+
+.f3 .cell .tbox{
+    float: left;
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 20px 50px;
+}
+
+.f3 .cell .tbox:hover{
+    box-shadow: 1px 2px 4px #222;
+    margin-top: 10px;
+}
+
+.f3 .cell .tic_img1{
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background: url("/images/ticket_img1.png") no-repeat;
+    background-size: contain;
+}
+.f3 .cell .tic_img2{
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background: url("/images/ticket_img2.png") no-repeat;
+    background-size: contain;
+}
+.f3 .cell .tic_text{
+    text-align: center;
+    font-weight: bold;
+}
+.f3 .cell .tic_text span{
+    font-style: italic;
+    color: #555;
+}
+
+/* riview */
+.f4 .cell .rbox{
+    width: 900px;
+    height: 450px;
+    margin: 0 auto;
+}
+.f4 .cell .rbox .riv{
+    border: 1px solid #333;
+    box-sizing: border-box;
+    float: left;
+    width: 180px;
+    height: 225px;
+    margin: 0;
+    position: relative;
+}
+.f4 .cell .rbox .riv .riv_title{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+}
+.rbox .riv:hover{
+    transform: scale(1.1);
+    z-index: 10;
+    transition: all 0.2s;
+}
+.f4 .cell .rbox .riv.r1{
+    background: url("/images/riv1.jpg") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r2{
+    background: url("/images/riv2.webp") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r3{
+    background: url("/images/riv3.webp") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r4{
+    background: url("/images/riv4.jpg") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r5{
+    background: url("/images/riv5.jpg") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r6{
+    background: url("/images/riv6.webp") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r7{
+    background: url("/images/riv4.jpg") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r8{
+    background: url("/images/riv5.jpg") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r9{
+    background: url("/images/riv6.webp") no-repeat;
+    background-size: 150%;
+}
+.f4 .cell .rbox .riv.r0{
+    background: url("/images/riv3.webp") no-repeat;
+    background-size: 150%;
+}
+
+/* notic */
+.f5 .cell .notic{
+    width: 100%;
+    height: 100px;
+}
+.f5 .cell .notic .notic_title{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.f5 .cell .notic .plus>a{
+    float: right;
+    margin-right: 100px;
+    width: 65px;
+    height: 30px;
+    background: url("/images/notic_plus_icon.png")no-repeat 100% 0%;
+}
+
+.f5 .cell .notics{
+    float: none;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.f5 .cell .notics>ul>li>.notic_title{
+    float: left;
+    width: 399px;
+    padding-left: 100px;
+    text-align: justify;
+    /* border: 1px solid red; */
+}
+.f5 .cell .notics>ul>li>.notic_title:hover{
+    text-decoration: underline;
+}
+.f5 .cell .notics>ul>li>.notic_date{
+    float: right;
+    width: 399px;
+    padding-right: 100px;
+    text-align: right;
+    /* border: 1px solid red; */
+}
+.f5 .cell .notics>ul>li{
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
