@@ -1,6 +1,6 @@
 /* intro */
 .f1 .cell{
-    background: url("/images/main_intro.png");
+    background: url("/MGR_MAIN/images/main_intro.png");
     background-size: cover;
 }
 
@@ -36,7 +36,7 @@
 .f2 .cell .at1_photo{
     height: 100%;
     width: 100%;
-    background: url("/images/at5_photo.jpg") no-repeat 90% 75%;
+    background: url("/MGR_MAIN/images/at5_photo.jpg") no-repeat 90% 75%;
     background-position: cover;
 }
 .f2 .cell .at1_text{
@@ -68,7 +68,7 @@
 .f2 .cell .at2_photo{
     height: 100%;
     width: 100%;
-    background: url("/images/at2_photo.jpg") no-repeat 35% 50%;
+    background: url("/MGR_MAIN/images/at2_photo.jpg") no-repeat 35% 50%;
     background-size: 250%;
 }
 .f2 .cell .at2_text{
@@ -82,7 +82,7 @@
 .f2 .cell .at3_photo{
     height: 100%;
     width: 100%;
-    background: url("/images/at3_photo.jpg") no-repeat 35%;
+    background: url("/MGR_MAIN/images/at3_photo.jpg") no-repeat 35%;
     background-size: 250%;
 }
 .f2 .cell .at3_text{
@@ -96,7 +96,7 @@
 .f2 .cell .at4_photo{
     height: 100%;
     width: 100%;
-    background: url("/images/at4_photo.jpg") no-repeat 35%;
+    background: url("/MGR_MAIN/images/at4_photo.jpg") no-repeat 35%;
     background-size: 250%;
 }
 .f2 .cell .at4_text{
@@ -109,7 +109,7 @@
 .f2 .cell .at5_photo{
     height: 100%;
     width: 100%;
-    background: url("/images/at1_photo.jpg") no-repeat 35%;
+    background: url("/MGR_MAIN/images/at1_photo.jpg") no-repeat 35%;
     background-size: 250%;
 }
 .f2 .cell .at5_text{
@@ -138,16 +138,16 @@
 
 .f3 .cell .tic_img1{
     margin: 0 auto;
-    width: 300px;
-    height: 400px;
-    background: url("/images/ticket_img1.png") no-repeat;
+    width: 2500px;
+    height: 350px;
+    background: url("/MGR_MAIN/images/ticket_img1.png") no-repeat;
     background-size: contain;
 }
 .f3 .cell .tic_img2{
     margin: 0 auto;
-    width: 300px;
-    height: 400px;
-    background: url("/images/ticket_img2.png") no-repeat;
+    width: 250px;
+    height: 350px;
+    background: url("/MGR_MAIN/images/ticket_img2.png") no-repeat;
     background-size: contain;
 }
 .f3 .cell .tic_text{
@@ -188,43 +188,43 @@
     transition: all 0.2s;
 }
 .f4 .cell .rbox .riv.r1{
-    background: url("/images/riv1.jpg") no-repeat;
+    background: url("/MGR_MAIN/images/riv1.jpg") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r2{
-    background: url("/images/riv2.webp") no-repeat;
+    background: url("/MGR_MAIN/images/riv2.webp") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r3{
-    background: url("/images/riv3.webp") no-repeat;
+    background: url("/MGR_MAIN/images/riv3.webp") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r4{
-    background: url("/images/riv4.jpg") no-repeat;
+    background: url("/MGR_MAIN/images/riv4.jpg") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r5{
-    background: url("/images/riv5.jpg") no-repeat;
+    background: url("/MGR_MAIN/images/riv5.jpg") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r6{
-    background: url("/images/riv6.webp") no-repeat;
+    background: url("/MGR_MAIN/images/riv6.webp") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r7{
-    background: url("/images/riv4.jpg") no-repeat;
+    background: url("/MGR_MAIN/images/riv4.jpg") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r8{
-    background: url("/images/riv5.jpg") no-repeat;
+    background: url("/MGR_MAIN/images/riv5.jpg") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r9{
-    background: url("/images/riv6.webp") no-repeat;
+    background: url("/MGR_MAIN/images/riv6.webp") no-repeat;
     background-size: 150%;
 }
 .f4 .cell .rbox .riv.r0{
-    background: url("/images/riv3.webp") no-repeat;
+    background: url("/MGR_MAIN/images/riv3.webp") no-repeat;
     background-size: 150%;
 }
 
@@ -248,7 +248,7 @@
     margin-right: 100px;
     width: 65px;
     height: 30px;
-    background: url("/images/notic_plus_icon.png")no-repeat 100% 0%;
+    background: url("/MGR_MAIN/images/notic_plus_icon.png")no-repeat 100% 0%;
 }
 
 .f5 .cell .notics{

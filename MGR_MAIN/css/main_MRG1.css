@@ -10,17 +10,17 @@ a{text-decoration: none; color: #222;}
 body{font-family: 'Nanum Gothic', sans-serif; }
 
 
-html, body {
-    height: 100%;
-}
+/* html, body {
+    width: 100%;
+} */
 
 body{
     position: relative;
     height: 800px;
     width: 1240px;
     margin: 0 auto;
-    background: url("/images/main_bg1.png") no-repeat ;
-    background-size: contain;
+    background: url("/MGR_MAIN/images/main_bg1.png") no-repeat ;
+    background-size: cover;
 }
 
 /* header */
@@ -58,7 +58,7 @@ header .nav {
     left:0; right:0;
     top: -600px; 
     /* top: -350px;  */
-    background: url("/images/nav_img.png") no-repeat center;
+    background: url("/MGR_MAIN/images/nav_img.png") no-repeat center;
     transition: all 0.3s;
     z-index: 10;
 }
